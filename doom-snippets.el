@@ -58,5 +58,5 @@ yasnippet directory."
 (eval-after-load 'yasnippet
   (lambda () (doom-snippets-initialize)))
 
-(provide 'my-doom-snippets)
+(provide 'doom-snippets)
 ;;; doom-snippets.el ends here
