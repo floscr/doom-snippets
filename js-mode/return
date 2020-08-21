@@ -3,4 +3,4 @@
 # key: r
 # uuid: r
 # --
-return $0;
+return$0${1:`(when (not (+my/buffer-line-has ";")) ";")`}
